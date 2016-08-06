@@ -74,7 +74,7 @@ a#portfolio, a#contact {
 
 
 section.content, section.content-portfolio {
-
+	margin-top: 20px;
 	width: 960px;
 	padding: 0;
 	margin-left: 10%;
@@ -178,7 +178,7 @@ header#contact {
 }
 
 form.contact-info {
-
+	
 	color: #cccccc;
 	line-height: 1.5;
 	padding-top: 10px;
