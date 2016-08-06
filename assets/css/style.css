@@ -209,9 +209,6 @@ form.contact-info {
 
 /* This section is specific to portfolio.html */
 
-section.portfolio-all {
-	float: left;
-}
 header#portfolio {
 	width: 94%;
 	height: 8%;
