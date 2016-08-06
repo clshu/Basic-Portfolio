@@ -59,15 +59,15 @@ li {
 	display: inline-block;
 
 }
-li a#about, li a#portfolio, li a#contact {
+li a#h-about, li a#h-portfolio, li a#h-contact {
 		text-decoration: none;
 		width: 40px;
 }
-a#about, a#portfolio {
+a#h-about, a#h-portfolio {
 	padding-right: 8px;
 	border-right: 2px solid #cccccc;
 }
-a#portfolio, a#contact {
+a#h-portfolio, a#h-contact {
 	padding-left: 8px;
 }
 
@@ -89,7 +89,7 @@ section.content-portfolio {
 }
 
 /* This section is specific to index.html */
-article.about-self, section.contact-form {
+article.about-self, section.contact-form, section.portfolio-all {
 	width: 590px;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -208,10 +208,23 @@ form.contact-info {
 /* end of contact.html specifics */
 
 /* This section is specific to portfolio.html */
+
+section.portfolio-all {
+	float: left;
+}
+header#portfolio {
+	width: 94%;
+	height: 8%;
+	border-bottom: 3px solid #cccccc;
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+
 section.portfolio-images {
 	overflow: auto;
 	padding-top: 20px;
 }
+/* <ul> and <li> are defined in the beginning */
 a.image {
 	height: 220px;
 	width: 260px;
