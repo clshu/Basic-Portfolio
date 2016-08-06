@@ -187,6 +187,7 @@ form.contact-info {
 .contact-info input[type="text"], .contact-info input[type="email"]{
 	border-color: #cccccc;
 	border-width: 1px;
+	border-style: solid;
 	width: 93%;
 	height: 40px;
 }
